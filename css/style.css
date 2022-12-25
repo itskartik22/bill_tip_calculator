@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.row-flex{
+    display: flex;
+    flex-direction: row;
+}
+.col-flex{
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg, #2f033a, #a503c38a);
+    height: 100vh;
+}
+
+.container{
+    justify-content: flex-start;
+    align-items: center;
+    background: #0e0d16fc;
+    margin: 2rem;
+    padding: 1rem;
+    padding-top: 3rem;
+    width: 30%;
+    height: 85%;
+    border-radius: 1rem;
+    color: white;
+    font-family: monospace;
+    /* letter-spacing: 2px; */
+    font-size: 0.9rem;    
+}
+
+.bil-div{
+    width: 100%;
+    margin: 0.6rem;
+}
+.tip-div{
+    width: 100%;
+    margin: 0.6rem;
+}
+.last-section{
+    width: 100%;
+    margin: 0.6rem;
+}
+
+h3, input{
+    margin:5px 0px;
+    width: 100%;
+}
+input{
+    color: white;
+    padding:7px 10px;
+    font-weight: bold;
+    border-radius: 0.8rem;
+    background-color: #251e5eb3;
+    border: 0px;
+}
+
+.last-section{
+    justify-content: space-between;
+}
+.total-amt{
+    text-align:right;
+}
+
+.total-amt span{
+    font-size: 2rem;
+}
+
+.no-Person-count{
+    font-size: 1.7rem;
+}
+.no-Person-count button{
+    font-size: 1.4rem;
+    width: 2rem;
+    border-radius: 5rem;
+    background-color: rgb(67, 33, 121);
+    border: 0px;
+}
